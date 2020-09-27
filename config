@@ -7,8 +7,10 @@ unbind %
 # Enable mouse control 
 set -g mouse on
 
-# don't rename windows automatically
-set-option -g allow-rename off
+# remap prefix from 'C-b' to 'C-a'
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
 
 # switch panes using Alt-arrow without prefix
 bind -n M-Left select-pane -L
