@@ -19,3 +19,13 @@ bind-key C-a send-prefix
 #------------------------------#
 set -g @plugin 'tmux-plugins/tmux-yank'
 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Caps To CTRL :-
+
+setxkbmap -layout us -option ctrl:nocaps
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+
