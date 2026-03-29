@@ -22,10 +22,11 @@ bind-key C-a send-prefix
 set -g @plugin "tmux-plugins/tpm"
 
 # Selected Plugins
-set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin "nordtheme/tmux"
 
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run "~/.tmux/plugins/tpm/tpm"
 
+#------------------------------#
 
 
